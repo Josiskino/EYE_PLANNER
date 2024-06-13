@@ -36,6 +36,7 @@ class SuccessfullLoginPage extends StatelessWidget {
                   style:TextStyle( 
                     color: Color(0xFF3C5375),
                     fontSize: 21, 
+                    fontFamily: 'Lora'
                   ),
                   textAlign: TextAlign.center,
                 ),
@@ -43,10 +44,11 @@ class SuccessfullLoginPage extends StatelessWidget {
                 const Padding(
                   padding: EdgeInsets.only(left: 16, right: 21),
                   child: Text(
-                    'Lorem ipsum dolor sit amet, consectetur adipiscing \nelit, sed do eiusmod tempor ',
+                    'Lorem ipsum dolor sit amet, consectetur \n adipiscing elit, sed do eiusmod tempor ',
                     style:TextStyle( 
                       color: Color(0xFF8287A1),
                       fontSize: 15, 
+                      fontFamily: 'Lora'
                     ),
                     textAlign: TextAlign.center,
                   ),
@@ -61,11 +63,7 @@ class SuccessfullLoginPage extends StatelessWidget {
             right: 0,
             child: GestureDetector(
                       onTap: () {
-                        print("Se connecter avec Google");
-                        // Ajoutez ici une autre action pour vérifier si le clic fonctionne
-                        ScaffoldMessenger.of(context).showSnackBar(
-                          const SnackBar(content: Text("Se connecter avec Google"))
-                        );
+                        debugPrint("Se connecter avec Google");
                         Navigator.push(
                           context,
                           MaterialPageRoute(builder: (context) => const HomePage()),
@@ -85,7 +83,8 @@ class SuccessfullLoginPage extends StatelessWidget {
                             'Continuer',
                             style: TextStyle(
                               color: Colors.white,
-                              fontSize: 20,
+                              fontSize: 22,
+                              fontFamily: 'Lora',
                               //fontWeight: FontWeight.bold,
                             ),
                           ),

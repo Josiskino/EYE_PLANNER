@@ -52,19 +52,19 @@ class LoginPage extends StatelessWidget {
                       'Réservez vos rdv chez \n l\'opticien en quelques clics',
                       style: TextStyle(
                         color: Color(0xFF4A91C3),
-                        fontSize: 26,
+                        fontSize: 25,
                         fontWeight: FontWeight.bold,
-                        
+                        fontFamily: 'Lora'
                       ),
                       textAlign: TextAlign.center,
                     ),
                     const SizedBox(height: 39,),
                     GestureDetector(
                       onTap: () {
-                        print("Se connecter avec Google");
+                        debugPrint("Se connecter avec Google");
                         // Ajoutez ici une autre action pour vérifier si le clic fonctionne
                         ScaffoldMessenger.of(context).showSnackBar(
-                          const SnackBar(content: Text("Se connecter avec Google"))
+                          const SnackBar(content: Text("Connexion Successful"))
                         );
                         Navigator.push(
                           context,
@@ -73,7 +73,7 @@ class LoginPage extends StatelessWidget {
                       },
                       child: Container(
                         width: MediaQuery.of(context).size.width * 0.90,
-                        height: 50,
+                        height: 50.9,
                         decoration: BoxDecoration(
                           color: const Color(0xFF3C5375),
                           borderRadius: BorderRadius.circular(20),
@@ -94,6 +94,7 @@ class LoginPage extends StatelessWidget {
                               style: TextStyle(
                                 color: Colors.white,
                                 fontSize: 20,
+                                fontFamily: 'Lora',
                                 //fontWeight: FontWeight.bold,
                               ),
                             ),

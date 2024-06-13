@@ -31,6 +31,7 @@ class _SplashScreen1State extends State<SplashScreen1> {
       builder: (context, snapshot) {
         if (snapshot.connectionState == ConnectionState.done) {
           return AnimatedSplashScreen(
+            //duration: 6,
             splash: Column(
               mainAxisAlignment: MainAxisAlignment.center, // Centrer le contenu verticalement
               children: [
