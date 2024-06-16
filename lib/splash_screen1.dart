@@ -1,5 +1,5 @@
 import 'package:animated_splash_screen/animated_splash_screen.dart';
-import 'package:eye_planner/login_page.dart';
+import 'package:eye_planner/features/auth/presentation/pages/login/login_page.dart';
 import 'package:flutter/material.dart';
 import 'package:lottie/lottie.dart';
 

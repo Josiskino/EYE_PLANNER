@@ -1,4 +1,4 @@
-import 'package:eye_planner/home.dart';
+import 'package:eye_planner/features/consultation/presentation/pages/home/home_page.dart';
 import 'package:flutter/material.dart';
 
 class SuccessfullLoginPage extends StatelessWidget {

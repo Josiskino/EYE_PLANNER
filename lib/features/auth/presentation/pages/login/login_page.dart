@@ -1,4 +1,4 @@
-import 'package:eye_planner/successfull_login_page.dart';
+import 'package:eye_planner/features/auth/presentation/pages/login/successfull_login_page.dart';
 import 'package:flutter/material.dart';
 
 
