@@ -19,3 +19,5 @@ class HomePage extends StatelessWidget {
         ));
   }
 }
+
+var age =AboutDialog();

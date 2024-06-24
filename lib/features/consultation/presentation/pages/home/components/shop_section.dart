@@ -68,7 +68,7 @@ class _ShopSectionState extends State<ShopSection> {
                       ),
                     ),
                   ],
-                ))
+                )),
           ],
         ),
       ),
